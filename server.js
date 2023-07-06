@@ -23,6 +23,8 @@ app.get("/api/notes", (req, res) => {
 });
 
 //fucntion to create new note
+// used uuidv4 to create unique id for each note 
+//  https://www.npmjs.com/package/uuid
 function createNewNote(body, notesArray) {
   const newNote = {
     ...body, id:uuidv4()}

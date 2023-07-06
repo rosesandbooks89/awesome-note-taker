@@ -11,10 +11,12 @@
 * [Questions](#questions)
 
 ## Installation
-To install necessary dependencies, run the following command:
-\`\`\`
-npm i
-\`\`\`
+To install necessary dependencies, run the following commands:
+npm i -g
+npm i nodemon
+npm i express
+npm i uuid
+
 
 ## Usage
 To use this application, run the following command:
@@ -48,7 +50,14 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## Struggles and Sources
 
-TBA
+ I had a bit of trouble with this assignment. Using the activities from week 11 I was able to build the starting of how to use the app functions. I was able to get the server to run, but I was not able to get the notes to save. I tried to use the code from the mini project, but I was not able to get it to work. After working with my tutor she was able to help me fix my code to get it to save. She walked me through on how to get the delete function to work as well. Irina taught me about npm run watch so that we could see the updates to my server in live time. This made it helpful to quickly see if the changes we were making to the code was working with the server. I learned that the about the spread operator but still dont quite understand how to use it. 
+
+
+    I used the following sources to help me with this assignment:
+    * [Express.js](https://expressjs.com/)
+    * [uuid](https://www.npmjs.com/package/uuid)
+    * [nodemon](https://www.npmjs.com/package/nodemon)
+    * [npm run watch](https://www.npmjs.com/package/npm-run-all)
 
 
 ## Link to Recording of Application
