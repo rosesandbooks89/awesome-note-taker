@@ -60,8 +60,8 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
     * [npm run watch](https://www.npmjs.com/package/npm-run-all)
 
 
-## Link to Recording of Application
-Here is the link to the recording:
+## Link to Deployed Application
+[Link to Deployed Application](https://awesome-note-taker-89.herokuapp.com/)
 
 ## Questions
 If you have any questions, please contact me at the email below. Check out my Github portfolio for more of my projects!

@@ -23,15 +23,17 @@ app.get("/api/notes", (req, res) => {
 });
 
 //fucntion to create new note
-// used uuidv4 to create unique id for each note 
+// used uuidv4 to create unique id for each note
 //  https://www.npmjs.com/package/uuid
 function createNewNote(body, notesArray) {
   const newNote = {
-    ...body, id:uuidv4()}
+    ...body,
+    id: uuidv4(),
+  };
   notesArray.push(newNote);
   fs.writeFileSync(
     path.join(__dirname, "./db/db.json"),
-    JSON.stringify(notesArray , null, 2)
+    JSON.stringify(notesArray, null, 2)
   );
   return newNote;
 }
