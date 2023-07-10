@@ -179,8 +179,4 @@ if (window.location.pathname === "/notes") {
   noteTitle.addEventListener("keyup", handleRenderSaveBtn);
   noteText.addEventListener("keyup", handleRenderSaveBtn);
 }
-
-//fucntion to edit notes and save them
-// function editNote() {
-
 getAndRenderNotes();
