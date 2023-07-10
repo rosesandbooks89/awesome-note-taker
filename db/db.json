@@ -1,7 +1,3 @@
 [
-  {
-    "title": "Codes to use for node",
-    "text": "sql- my sql -u root -p\n\nnpm i mysql2\n\nnodemon- npm i nodemon\n\nfor insomnia- noder server.js\n\nexpress- npm install express",
-    "id": "dc726888-29c5-4559-811e-0ca179753b4f"
-  }
+ 
 ]
