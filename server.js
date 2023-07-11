@@ -31,7 +31,7 @@ function createNewNote(body, notesArray) {
     id: uuidv4(),
   };
   notesArray.push(newNote);
-  fs.writeFile(
+  fs.writeFileSync(
     path.join(__dirname, "./db/db.json"),
     JSON.stringify(notesArray, null, 2)
   );
@@ -49,7 +49,7 @@ app.post("/api/notes", (req, res) => {
 // function to delete notes
 function deleteNote(id, notesArray) {
   const deletedNote = notesArray.filter((note) => note.id !== id);
-  fs.writeFile(
+  fs.writeFileSync(
     path.join(__dirname, "./db/db.json"),
     JSON.stringify(deletedNote, null, 2)
   );
