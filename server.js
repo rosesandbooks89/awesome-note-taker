@@ -31,7 +31,7 @@ function createNewNote(body, notesArray) {
     id: uuidv4(),
   };
   notesArray.push(newNote);
-  fs.writeFileSync(
+  fs.writeFile(
     path.join(__dirname, "./db/db.json"),
     JSON.stringify(notesArray, null, 2)
   );
