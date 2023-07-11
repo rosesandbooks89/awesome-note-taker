@@ -59,7 +59,7 @@ function deleteNote(id, notesArray) {
 //notes/should receive a query parameter containing the id of a note to delete.
 app.delete("/api/notes/:id", (req, res) => {
   //remove note from json file and notes array in this function
-  const deletedNote = deleteNote(req.params.id);
+  const deletedNote = deleteNote(req.params.id, allNotes);
   res.json(deletedNote);
 });
 
