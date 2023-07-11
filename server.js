@@ -22,7 +22,7 @@ app.get("/api/notes", (req, res) => {
   });
 });
 
-//fucntion to create new note
+//function to create new note
 // used uuidv4 to create unique id for each note
 //  https://www.npmjs.com/package/uuid
 function createNewNote(body, notesArray) {
@@ -49,7 +49,7 @@ app.post("/api/notes", (req, res) => {
 // function to delete notes
 function deleteNote(id, notesArray) {
   const deletedNote = notesArray.filter((note) => note.id !== id);
-  fs.writeFileSync(
+  fs.writeFileAsync(
     path.join(__dirname, "./db/db.json"),
     JSON.stringify(deletedNote, null, 2)
   );
