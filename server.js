@@ -49,7 +49,7 @@ app.post("/api/notes", (req, res) => {
 // function to delete notes
 function deleteNote(id, notesArray) {
   const deletedNote = notesArray.filter((note) => note.id !== id);
-  fs.writeFileAsync(
+  fs.writeFile(
     path.join(__dirname, "./db/db.json"),
     JSON.stringify(deletedNote, null, 2)
   );
