@@ -19,10 +19,7 @@ npm i uuid
 
 
 ## Usage
-To use this application, run the following command:
-\`\`\`
-node server.js
-\`\`\`
+To use this application, run the following command: nodemon server.js
 
 ## License
 No license was used for this project.
@@ -50,7 +47,8 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## Struggles and Sources
 
- I had a bit of trouble with this assignment. Using the activities from week 11 I was able to build the starting of how to use the app functions. I was able to get the server to run, but I was not able to get the notes to save. I tried to use the code from the mini project, but I was not able to get it to work. After working with my tutor she was able to help me fix my code to get it to save. She walked me through on how to get the delete function to work as well. Irina taught me about npm run watch so that we could see the updates to my server in live time. This made it helpful to quickly see if the changes we were making to the code was working with the server. I learned that the about the spread operator but still dont quite understand how to use it. 
+ I had a bit of trouble with this assignment. Using the activities from week 11 I was able to build the starting of how to use the app functions. I was able to get the server to run, but I was not able to get the notes to save. I tried to use the code from the mini project, but I was not able to get it to work. After working with my tutor she was able to help me fix my code to get it to save. She walked me through on how to get the delete function to work as well. Irina taught me about npm run watch so that we could see the updates to my server in live time. This made it helpful to quickly see if the changes we were making to the code was working with the server. I learned that the about the spread operator (...) but still dont quite understand how to use it. 
+ Did want to note that the delete function works on localhost but in the deployed app, the delete function doesn't work. I worked with  my TA and instructor but couldn't get it fixed. Will keep trying to fix it.
 
 
     I used the following sources to help me with this assignment:
@@ -61,7 +59,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 
 ## Link to Deployed Application
-[Link to Deployed Application](https://awesome-note-taker-89.herokuapp.com/)
+[Link to Deployed Application](https://awesome-notetaker-acd455f00464.herokuapp.com/)
 
 ## Questions
 If you have any questions, please contact me at the email below. Check out my Github portfolio for more of my projects!
