@@ -46,7 +46,7 @@ app.post("/api/notes", (req, res) => {
   res.json(newNote);
 });
 
-// fucntion to delete notes
+// function to delete notes
 function deleteNote(id, notesArray) {
   const deletedNote = notesArray.filter((note) => note.id !== id);
   fs.writeFileSync(
@@ -59,7 +59,7 @@ function deleteNote(id, notesArray) {
 //notes/should receive a query parameter containing the id of a note to delete.
 app.delete("/api/notes/:id", (req, res) => {
   //remove note from json file and notes array in this function
-  const deletedNote = deleteNote(req.params.id, allNotes);
+  const deletedNote = deleteNote(req.params.id);
   res.json(deletedNote);
 });
 
